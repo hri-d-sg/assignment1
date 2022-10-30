@@ -8,6 +8,7 @@ h1 {
 
 .container {
     display: flex;
+    padding-bottom: 5%;
 }
 
 .half-width {
@@ -19,12 +20,14 @@ h1 {
 .half-width img {
     width: 60%;
     padding-left: 10%;
-    padding-bottom: 20%;
+
+
 }
 
 .orange-color {
     color: orange;
 }
+
 
 .link-button {
     text-decoration: none;
@@ -75,4 +78,10 @@ h1 {
     max-width: 500px;
     border-radius: 15px;
     padding: 2%;
+}
+
+#section3 {
+    background-image: url(mission/images/pictures/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
