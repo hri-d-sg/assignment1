@@ -10,13 +10,13 @@ h1 {
     display: flex;
 }
 
-.one-section {
+.half-width {
     width: 50%;
     padding-left: 5%;
 
 }
 
-.one-section img {
+.half-width img {
     width: 60%;
     padding-left: 10%;
     padding-bottom: 20%;
@@ -42,4 +42,37 @@ h1 {
 
 #text-down {
     padding-top: 100px;
+}
+
+.third-width {
+    width: 70%;
+
+    margin: 50px;
+    padding-left: 10px;
+}
+
+.third-width img {
+    width: 40%;
+}
+
+#Learn {
+    background-color: #DBF3FA;
+    border-radius: 15px;
+    max-width: 500px;
+    padding: 2%;
+}
+
+#explore {
+    background-color: #FFC0CB;
+    max-width: 500px;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+
+#implementation {
+    background-color: #FFF9A6;
+    max-width: 500px;
+    border-radius: 15px;
+    padding: 2%;
 }
